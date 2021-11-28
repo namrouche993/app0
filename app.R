@@ -2749,9 +2749,9 @@ server <- function(input, output,session) {
                 Realtotal = colDef(show = FALSE),
                 Prevtotal = colDef(show = FALSE)
                 
-              ),
-              defaultColDef = colDef(footerStyle = list(fontWeight = "bold",align = "center")),
-              #defaultColDef = colDef(vAlign = "center", headerVAlign = "bottom"),
+              )
+              ,defaultColDef = colDef(footerStyle = list(fontWeight = "bold",align = "center")),
+              ##defaultColDef = colDef(vAlign = "center", headerVAlign = "bottom"),
               bordered = TRUE,
               fullWidth = FALSE
     )
